@@ -515,7 +515,6 @@ any links that you are not going to use.
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<!-- - How do you write a lesson using Markdown and `{sandpaper}`? -->
 <ul>
 <li>What are the OSS options for web hosted alternatives to Office365,
 Google Docs etc?</li>
@@ -527,176 +526,375 @@ Google Docs etc?</li>
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<!--
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
--->
-<ul>
-<li>Understand that there are alternatives</li>
-<li>Be able to understand which ones may be better for the task in
-hand</li>
-<li>Be able to make a decision around which tool to try for a given
-organisation</li>
-</ul>
+<p>By the end of this module, learners will be able to:</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Understand that there are open-source alternatives</strong>
+to proprietary web-based productivity tools.<br>
+</li>
+<li>
+<strong>Evaluate which tools are better suited</strong> for specific
+tasks (e.g., document collaboration, spreadsheet analysis, etc.).<br>
+</li>
+<li>
+<strong>Make informed decisions</strong> about which tool to adopt
+for an organization, considering deployment options, cost, and feature
+sets.</li>
+</ol>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
-</h2>
-<hr class="half-width">
-<!--
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.html) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output.
-Please refer to the [Introduction to The Carpentries
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
-
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
-
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
---><div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="section level1">
+<h1 id="open-source-web-based-desktop-applications-lorum-ipsum-version">Open Source Web-Based Desktop Applications: Lorum Ipsum version<a class="anchor" aria-label="anchor" href="#open-source-web-based-desktop-applications-lorum-ipsum-version"></a>
+</h1>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
 <div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
-<!--
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
--->
+<p>Regarding Inline Challenges</p>
+<ul>
+<li><p><strong>Use real-world scenarios</strong> to ground abstract
+concepts (e.g., “limited IT resources,” “real-time
+collaboration”).<br></p></li>
+<li><p><strong>Encourage learners to reflect on their own
+context</strong> (e.g., “how does this apply to your team’s
+needs?”).</p></li>
+<li><p><strong>Link challenges to deployment layers and tool
+evaluation</strong> to reinforce the framework for
+decision-making.</p></li>
+</ul>
+<blockquote>
+<p><strong>Emphasize</strong> the <strong>trade-offs</strong> between
+<em>functionality</em>, <em>cost</em>, and <em>control</em> when
+choosing a tool. This is critical for organizational
+decision-making.</p>
+</blockquote>
 </div>
 </div>
 </div>
 </div>
-<div id="challenge1" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
-<div class="callout-content">
-<!--
-## Challenge 1: Can you do it?
-
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
--->
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<!--
-## Output
-
-```output
-[1] "This new lesson looks good"
-```
--->
-</div>
-</div>
-</div>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
-<h3 class="callout-title">Challenge 2: how do you nest solutions within
-challenge blocks?</h3>
-<div class="callout-content">
-<!--
--->
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<!--
-
-You can add a line with at least three colons and a `solution` tag.
--->
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="figures">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
+<div class="section level2">
+<h2 id="key-concepts">Key Concepts<a class="anchor" aria-label="anchor" href="#key-concepts"></a>
 </h2>
-<hr class="half-width">
-<!--
-You can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
---><div id="callout1" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
 </div>
-<span class="callout-header">Callout</span>
-<div class="callout-inner">
+<div class="section level2">
+<h2 id="overview-of-open-source-alternatives">📌 Overview of Open Source Alternatives<a class="anchor" aria-label="anchor" href="#overview-of-open-source-alternatives"></a>
+</h2>
+<p>Modern open-source tools now offer robust web-based desktop
+experiences that rival proprietary solutions like Office 365 and Google
+Docs. The following four tools are central to this discussion:</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Euro Office</strong><br>
+</li>
+<li>
+<strong>Collabora Office</strong><br>
+</li>
+<li>
+<strong>LibreOffice Online</strong><br>
+</li>
+<li><strong>NextCloud</strong></li>
+</ol>
+<p>Each has unique strengths and deployment models.</p>
+<div id="challenge-2-tool-evaluation-for-collaboration-needs" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="challenge-2-tool-evaluation-for-collaboration-needs" class="callout-inner">
+<h3 class="callout-title">🤔 <strong>Challenge 2: Tool Evaluation for
+Collaboration Needs</strong>
+</h3>
 <div class="callout-content">
-<p>CALL OUT <!--
+<p><strong>Question:</strong><br><em>If your team requires real-time collaboration on spreadsheets, how
+would you choose which tool fits? Why? How does this align with your
+organization’s technical capabilities?</em><br><strong>Focus:</strong> Matching tool features to specific collaboration
+requirements.</p>
+</div>
+</div>
+</div>
+<hr>
+</div>
+<div class="section level2">
+<h2 id="four-deployment-layers-trade-offs-and-use-cases">📊 Four Deployment Layers: Trade-Offs and Use Cases<a class="anchor" aria-label="anchor" href="#four-deployment-layers-trade-offs-and-use-cases"></a>
+</h2>
+<div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
+  <h3 class="accordion-header" id="headingInstructor2">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
+</button>
+<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div class="accordion-body">
+<blockquote>
+<p><strong>Highlight</strong> the <strong>four deployment
+layers</strong> as a framework for understanding how organizations can
+adopt these tools. This helps learners think critically about
+scalability, security, and cost.</p>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<table class="table">
+<colgroup>
+<col width="39%">
+<col width="32%">
+<col width="28%">
+</colgroup>
+<thead><tr>
+<th><strong>Deployment Layer</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Trade-Offs</strong></th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>1. Local/Team</strong></td>
+<td>Self-hosted by a small team or individual.</td>
+<td>Low cost, high maintenance.</td>
+</tr>
+<tr>
+<td><strong>2. Organization</strong></td>
+<td>Hosted internally by an organization.</td>
+<td>Greater control, but requires IT resources.</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<strong>3. Inter-Organization</strong> | Shared
+between multiple organizations (e.g., via NextCloud). |
+Collaboration</div>
+<p>benefits, but security risks. |<br>
+| <strong>4. Commercial Hosted</strong> | Managed by third-party
+providers (e.g., NextCloud.com). | Scalability and ease of use, but less
+control. |</p>
+<div id="challenge-1-deployment-layer-trade-offs" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="challenge-1-deployment-layer-trade-offs" class="callout-inner">
+<h3 class="callout-title">🤔 <strong>Challenge 1: Deployment Layer
+Trade-Offs</strong>
+</h3>
+<div class="callout-content">
+<p><strong>Question:</strong><br><em>In your organization, would you prioritize self-hosting (local/team)
+for cost savings, or a commercial hosted solution (e.g., NextCloud.com)
+for scalability? How might these choices affect data control and
+long-term growth?</em><br><strong>Focus:</strong> Balancing cost, control, and scalability in
+deployment decisions.</p>
+</div>
+</div>
+</div>
+<hr>
+</div>
+<div class="section level2">
+<h2 id="detailed-options">Detailed Options<a class="anchor" aria-label="anchor" href="#detailed-options"></a>
+</h2>
+<div class="section level3">
+<h3 id="euro-office">1. <strong>Euro Office</strong>
+<a class="anchor" aria-label="anchor" href="#euro-office"></a>
+</h3>
+<p><strong>What is it?</strong> A fork of LibreOffice with a focus on
+Microsoft Office compatibility.<br><strong>Key Features:</strong><br>
+- Full suite of document, spreadsheet, and presentation tools.<br>
+- Native support for <code>.docx</code>, <code>.xlsx</code>, and
+<code>.pptx</code> files.<br>
+- Web-based interface (via NextCloud or self-hosted).</p>
+<p><strong>Deployment Options:</strong><br>
+- <strong>Local/Team</strong>: Low cost, but requires setup.<br>
+- <strong>Commercial Hosted</strong>: Available via NextCloud (see
+below).</p>
+<p><strong>Trade-Offs:</strong><br>
+- <strong>Pros:</strong> Excellent compatibility with Microsoft
+formats.<br>
+- <strong>Cons:</strong> Less focus on real-time collaboration compared
+to Collabora.</p>
+</div>
+<div class="section level3">
+<h3 id="collabora-office">2. <strong>Collabora Office</strong>
+<a class="anchor" aria-label="anchor" href="#collabora-office"></a>
+</h3>
+<p><strong>What is it?</strong> A commercial version of LibreOffice
+designed for cloud deployment.<br><strong>Key Features:</strong><br>
+- Real-time collaboration (similar to Google Docs).<br>
+- Integration with NextCloud and other cloud platforms.<br>
+- Supports document editing, spreadsheets, and presentations.</p>
+<p><strong>Deployment Options:</strong><br>
+- <strong>Commercial Hosted</strong>: Managed by Collabora (e.g., via
+NextCloud).<br>
+- <strong>Organization</strong>: Can be self-hosted with custom
+configurations.</p>
+<p><strong>Trade-Offs:</strong><br>
+- <strong>Pros:</strong> Strong collaboration features, seamless
+integration.<br>
+- <strong>Cons:</strong> Higher cost for commercial hosting.</p>
+</div>
+<div class="section level3">
+<h3 id="libreoffice-online">3. <strong>LibreOffice Online</strong>
+<a class="anchor" aria-label="anchor" href="#libreoffice-online"></a>
+</h3>
+<p><strong>What is it?</strong> A lightweight, web-based version of
+LibreOffice.<br><strong>Key Features:</strong><br>
+- Basic document editing and formatting.<br>
+- Limited real-time collaboration.<br>
+- Low resource requirements.</p>
+<p><strong>Deployment Options:</strong><br>
+- <strong>Local/Team</strong>: Easy to set up, but lacks advanced
+features.<br>
+- <strong>Organization</strong>: Can be self-hosted for internal
+use.</p>
+<p><strong>Trade-Offs:</strong><br>
+- <strong>Pros:</strong> Lightweight, open-source, and free.<br>
+- <strong>Cons:</strong> Less polished interface and limited
+collaboration.</p>
+</div>
+<div class="section level3">
+<h3 id="nextcloud">4. <strong>NextCloud</strong>
+<a class="anchor" aria-label="anchor" href="#nextcloud"></a>
+</h3>
+<p><strong>What is it?</strong> A self-hosted cloud platform that
+integrates with multiple productivity tools.<br><strong>Key Features:</strong><br>
+- Central hub for file storage, document collaboration, and app
+integration.<br>
+- Supports <strong>Euro Office</strong>, <strong>Collabora</strong>, and
+<strong>LibreOffice Online</strong> as apps.<br>
+- Real-time editing and version control.</p>
+<p><strong>Deployment Options:</strong><br>
+- <strong>Inter-Organization</strong>: Shared between teams (e.g., via a
+NextCloud instance).<br>
+- <strong>Commercial Hosted</strong>: NextCloud.com provides managed
+hosting.</p>
+<p><strong>Trade-Offs:</strong><br>
+- <strong>Pros:</strong> Highly customizable and integrates with
+multiple tools.<br>
+- <strong>Cons:</strong> Requires technical expertise for setup and
+maintenance.</p>
+<div id="challenge-4-nextclouds-role-in-integration" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="challenge-4-nextclouds-role-in-integration" class="callout-inner">
+<h3 class="callout-title">🤔 <strong>Challenge 4: NextCloud’s Role in
+Integration</strong>
+</h3>
+<div class="callout-content">
+<p><strong>Question:</strong><br><em>How does NextCloud’s ability to host Euro Office or Collabora change
+the value of these tools for your organization? In what scenarios would
+this integration be critical for your workflows?</em><br><strong>Focus:</strong> Leveraging NextCloud as a central hub for tool
+interoperability and collaboration.</p>
+</div>
+</div>
+</div>
+<hr>
+</div>
+</div>
+<div class="section level2">
+<h2 id="choosing-the-right-tool-for-your-organization">Choosing the Right Tool for Your Organization<a class="anchor" aria-label="anchor" href="#choosing-the-right-tool-for-your-organization"></a>
+</h2>
+<div id="accordionInstructor3" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor3" aria-expanded="false" aria-controls="collapseInstructor3">
+  <h3 class="accordion-header" id="headingInstructor3">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
+</button>
+<div id="collapseInstructor3" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor3" aria-labelledby="headingInstructor3">
+<div class="accordion-body">
+<blockquote>
+<p><strong>Guide learners through a decision matrix</strong> using the
+following criteria:<br>
+- <strong>Functionality</strong>: Does the tool meet your specific needs
+(e.g., real-time editing)?<br>
+- <strong>Cost</strong>: Is the tool free, open-source, or requires
+licensing?<br>
+- <strong>Control</strong>: Do you need full control over data and
+hosting?<br>
+- <strong>Scalability</strong>: Will the tool grow with your
+organization?</p>
+</blockquote>
+<p><strong>Example Scenarios:</strong><br>
+1. <strong>Small Team</strong>: Use LibreOffice Online or a self-hosted
+Euro Office.<br>
+2. <strong>Enterprise</strong>: Deploy Collabora with NextCloud for
+centralized management.<br>
+3. <strong>Inter-Organization Collaboration</strong>: Use NextCloud with
+shared instances.<br>
+4. <strong>Budget-Conscious</strong>: Opt for LibreOffice Online or free
+NextCloud hosting.</p>
+<div id="challenge-3-organizational-decision-making" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="challenge-3-organizational-decision-making" class="callout-inner">
+<h3 class="callout-title">🤔 <strong>Challenge 3: Organizational
+Decision-Making</strong>
+</h3>
+<div class="callout-content">
+<p><strong>Question:</strong><br><em>Your organization has limited IT resources but needs document
+collaboration. Would you prioritize a lightweight tool like LibreOffice
+Online, or invest in a centralized platform like NextCloud with
+integrated apps? What factors would influence this choice?</em><br><strong>Focus:</strong> Prioritizing cost, ease of use, and scalability
+for resource-constrained teams.</p>
+</div>
+</div>
+</div>
+<hr>
+<div class="section level2">
+<h2 id="conclusion">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
+</h2>
+<p>Open-source web-based tools offer powerful alternatives to
+proprietary solutions. By understanding the <strong>four deployment
+layers</strong> and the <strong>unique strengths</strong> of tools like
+<strong>Euro Office</strong>, <strong>Collabora</strong>,
+<strong>LibreOffice Online</strong>, and <strong>NextCloud</strong>,
+organizations can make informed decisions that balance
+<strong>cost</strong>, <strong>control</strong>, and
+<strong>collaboration needs</strong>.</p>
+<div id="further-reading" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div id="further-reading" class="callout-inner">
+<h3 class="callout-title">📚 Further Reading</h3>
+<div class="callout-content">
+<ul>
+<li>
+<a href="https://nextcloud.com/" class="external-link">NextCloud Documentation</a><br>
+</li>
+<li>
+<a href="https://www.collaboraoffice.com/" class="external-link">Collabora Office
+Website</a><br>
+</li>
+<li>
+<a href="https://github.com/LibreOffice/LibreOffice" class="external-link">LibreOffice
+Online GitHub</a><br>
+</li>
+<li><a href="https://github.com/eurooffice" class="external-link">Euro Office GitHub</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+
+::::::::::::::::::::::::::::::::::::: callout
+
+CALL OUT
+<!--
 Callout sections can highlight information.
 
 They are sometimes used to emphasise particularly important points
 but are also used in some lessons to present "asides":
 content that is not central to the narrative of the lesson,
 e.g. by providing the answer to a commonly-asked question.
---></p>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="math">Math<a class="anchor" aria-label="anchor" href="#math"></a>
-</h2>
-<hr class="half-width">
-<!--
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
---><div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<span class="callout-header">Key Points</span>
-<div class="callout-inner">
-<div class="callout-content">
-<!--
-
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
-
 -->
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -705,7 +903,8 @@ Cool, right?
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-nextcloud"><p>Content from <a href="nextcloud.html">Nextcloud</a></p>
+</div>
+</div></section><section id="aio-nextcloud"><p>Content from <a href="nextcloud.html">Nextcloud</a></p>
 <hr>
 <p>Last updated on 2026-07-17 |
 
@@ -749,7 +948,7 @@ instance of Nextcloud</li>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>Instructor note</p>
 </div>
