@@ -24,7 +24,7 @@ cost, and feature sets.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-# Open Source Web-Based Desktop Applications: Lorum Ipsum version
+# Open Source Web-Based Desktop Applications: Lorem Ipsum version
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -66,6 +66,14 @@ capabilities?*
 
 ::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::: callout
+
+Please note that this is Lorem Ipsum version of this page. It was generated
+using Ollama, using Qwen 3:8b, on laptop. The real content would not be
+generated this way - this is just slightly more realistic Lorem Ipsum
+content.
+
+::::::::::::::::::::::::::::
 
 ---
 
