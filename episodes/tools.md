@@ -105,7 +105,7 @@ long-term growth?*
 ##  Detailed Options  
 
 ### 1. **Euro Office**  
-**What is it?** A fork of LibreOffice with a focus on Microsoft Office compatibility.  
+**What is it?** A fork of OnlyOffice - by major European Organisations
 **Key Features:**  
 - Full suite of document, spreadsheet, and presentation tools.  
 - Native support for `.docx`, `.xlsx`, and `.pptx` files.  
