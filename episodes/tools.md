@@ -4,148 +4,223 @@ teaching: 10 # teaching time in minutes
 exercises: 10 # exercise time in minutes
 ---
 
-
-<!-- Commented out for the moment as cribsheet --> 
-
 :::::::::::::::::::::::::::::::::::::: questions 
 
-<!-- - How do you write a lesson using Markdown and `{sandpaper}`? -->
 - What are the OSS options for web hosted alternatives to Office365, Google Docs etc?
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-<!--
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
--->
+By the end of this module, learners will be able to:  
 
-- Understand that there are alternatives
-- Be able to understand which ones may be better for the task in hand
-- Be able to make a decision around which tool to try for a given organisation
+1. **Understand that there are open-source alternatives** to proprietary web-based productivity tools.  
+2. **Evaluate which tools are better suited** for specific tasks (e.g., document collaboration, spreadsheet 
+analysis, etc.).  
+3. **Make informed decisions** about which tool to adopt for an organization, considering deployment options, 
+cost, and feature sets.  
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
-
-
-<!--
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.html) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
-
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
-
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
--->
+# Open Source Web-Based Desktop Applications: Lorem Ipsum version
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
+Regarding Inline Challenges
 
-<!--
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
--->
+- **Use real-world scenarios** to ground abstract concepts (e.g., "limited IT resources," "real-time 
+collaboration").  
+- **Encourage learners to reflect on their own context** (e.g., "how does this apply to your team’s needs?"). 
+ 
+- **Link challenges to deployment layers and tool evaluation** to reinforce the framework for 
+decision-making.  
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+> **Emphasize** the **trade-offs** between *functionality*, *cost*, and *control* when choosing a tool. This 
+is critical for organizational decision-making.  
+
+::::::::::::::::::::::::
+
+
+## Key Concepts  
+
+## Overview of Open Source Alternatives  
+Modern open-source tools now offer robust web-based desktop experiences that rival proprietary solutions like 
+Office 365 and Google Docs. The following four tools are central to this discussion:  
+
+1. **Euro Office**  
+2. **Collabora Office**  
+3. **LibreOffice Online**  
+4. **NextCloud**  
+
+Each has unique strengths and deployment models.  
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-<!--
-## Challenge 1: Can you do it?
+### **Tool Evaluation for Collaboration Needs**  
+**Question:**  
+*If your team requires real-time collaboration on spreadsheets,  how would you choose which tool fits? Why? How does this align with your organization’s technical 
+capabilities?*  
+**Focus:** Matching tool features to specific collaboration requirements.  
 
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
--->
-
-:::::::::::::::::::::::: solution 
-
-<!--
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
--->
-
-:::::::::::::::::::::::::::::::::
-
-
-## Challenge 2: how do you nest solutions within challenge blocks?
-
-<!--
--->
-
-:::::::::::::::::::::::: solution 
-
-<!--
-
-You can add a line with at least three colons and a `solution` tag.
--->
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Figures
-
-<!--
-You can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
--->
+::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: callout
 
-CALL OUT
-<!--
-Callout sections can highlight information.
+Please note that this is Lorem Ipsum version of this page. It was generated
+using Ollama, using Qwen 3:8b, on laptop. The real content would not be
+generated this way - this is just slightly more realistic Lorem Ipsum
+content.
 
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
--->
-::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::
 
 
-## Math
-<!--
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
+## Four Deployment Layers: Trade-Offs and Use Cases  
 
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-Cool, right?
--->
+> **Highlight** the **four deployment layers** as a framework for understanding how organizations can adopt 
+these tools. This helps learners think critically about scalability, security, and cost.  
+
+:::::::::::::
+
+| **Deployment Layer** | **Description** | **Trade-Offs** |  
+|----------------------|------------------|----------------|  
+| **1. Local/Team** | Self-hosted by a small team or individual. | Low cost, high maintenance. |  
+| **2. Organization** | Hosted internally by an organization. | Greater control, but requires IT resources. | 
+| **3. Inter-Organization** | Shared between multiple organizations (e.g., via NextCloud). | Collaboration benefits, but security risks. |  
+| **4. Commercial Hosted** | Managed by third-party providers (e.g., NextCloud.com). | Scalability and ease of use, but less control. |  
+
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+### **Deployment Layer Trade-Offs**  
+**Question:**  
+*In your organization, would you prioritize self-hosting (local/team) for cost savings, or a commercial 
+hosted solution (e.g., NextCloud.com) for scalability? How might these choices affect data control and 
+long-term growth?*  
+**Focus:** Balancing cost, control, and scalability in deployment decisions.  
+
+::::::::::::::::::::::::
+
+##  Detailed Options  
+
+### 1. **Euro Office**  
+**What is it?** A fork of LibreOffice with a focus on Microsoft Office compatibility.  
+**Key Features:**  
+- Full suite of document, spreadsheet, and presentation tools.  
+- Native support for `.docx`, `.xlsx`, and `.pptx` files.  
+- Web-based interface (via NextCloud or self-hosted).  
+
+**Deployment Options:**  
+- **Local/Team**: Low cost, but requires setup.  
+- **Commercial Hosted**: Available via NextCloud (see below).  
+
+**Trade-Offs:**  
+- **Pros:** Excellent compatibility with Microsoft formats.  
+- **Cons:** Less focus on real-time collaboration compared to Collabora.  
+
+### 2. **Collabora Office**  
+**What is it?** A commercial version of LibreOffice designed for cloud deployment.  
+**Key Features:**  
+- Real-time collaboration (similar to Google Docs).  
+- Integration with NextCloud and other cloud platforms.  
+- Supports document editing, spreadsheets, and presentations.  
+
+**Deployment Options:**  
+- **Commercial Hosted**: Managed by Collabora (e.g., via NextCloud).  
+- **Organization**: Can be self-hosted with custom configurations.  
+
+**Trade-Offs:**  
+- **Pros:** Strong collaboration features, seamless integration.  
+- **Cons:** Higher cost for commercial hosting.  
+
+### 3. **LibreOffice Online**  
+**What is it?** A lightweight, web-based version of LibreOffice.  
+**Key Features:**  
+- Basic document editing and formatting.  
+- Limited real-time collaboration.  
+- Low resource requirements.  
+
+**Deployment Options:**  
+- **Local/Team**: Easy to set up, but lacks advanced features.  
+- **Organization**: Can be self-hosted for internal use.  
+
+**Trade-Offs:**  
+- **Pros:** Lightweight, open-source, and free.  
+- **Cons:** Less polished interface and limited collaboration.  
+
+### 4. **NextCloud**  
+**What is it?** A self-hosted cloud platform that integrates with multiple productivity tools.  
+**Key Features:**  
+- Central hub for file storage, document collaboration, and app integration.  
+- Supports **Euro Office**, **Collabora**, and **LibreOffice Online** as apps.  
+- Real-time editing and version control.  
+
+**Deployment Options:**  
+- **Inter-Organization**: Shared between teams (e.g., via a NextCloud instance).  
+- **Commercial Hosted**: NextCloud.com provides managed hosting.  
+
+**Trade-Offs:**  
+- **Pros:** Highly customizable and integrates with multiple tools.  
+- **Cons:** Requires technical expertise for setup and maintenance.  
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+### **NextCloud’s Role in Integration**  
+**Question:**  
+*How does NextCloud’s ability to host Euro Office or Collabora change the value of these tools for your 
+organization? In what scenarios would this integration be critical for your workflows?*  
+**Focus:** Leveraging NextCloud as a central hub for tool interoperability and collaboration.  
+
+::::::::::::::::::::::::
+
+
+## Choosing the Right Tool for Your Organization  
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+> **Guide learners through a decision matrix** using the following criteria:  
+> - **Functionality**: Does the tool meet your specific needs (e.g., real-time editing)?  
+> - **Cost**: Is the tool free, open-source, or requires licensing?  
+> - **Control**: Do you need full control over data and hosting?  
+> - **Scalability**: Will the tool grow with your organization?  
+
+:::::::::::::::
+
+
+**Example Scenarios:**  
+1. **Small Team**: Use LibreOffice Online or a self-hosted Euro Office.  
+2. **Enterprise**: Deploy Collabora with NextCloud for centralized management.  
+3. **Inter-Organization Collaboration**: Use NextCloud with shared instances.  
+4. **Budget-Conscious**: Opt for LibreOffice Online or free NextCloud hosting.  
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+### **Organizational Decision-Making**  
+**Question:**  
+*Your organization has limited IT resources but needs document collaboration. Would you prioritize a 
+lightweight tool like LibreOffice Online, or invest in a centralized platform like NextCloud with integrated 
+apps? What factors would influence this choice?*  
+**Focus:** Prioritizing cost, ease of use, and scalability for resource-constrained teams.  
+
+::::::::::::::::::::::::
+
+
+---
+
+##  Conclusion  
+Open-source web-based tools offer powerful alternatives to proprietary solutions. By understanding the **four 
+deployment layers** and the **unique strengths** of tools like **Euro Office**, **Collabora**, **LibreOffice 
+Online**, and **NextCloud**, organizations can make informed decisions that balance **cost**, **control**, 
+and **collaboration needs**.  
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-<!--
-
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
-
--->
+## 📚 Further Reading  
+- [NextCloud Documentation](https://nextcloud.com/)  
+- [Collabora Office Website](https://www.collaboraoffice.com/)  
+- [LibreOffice Online GitHub](https://github.com/LibreOffice/LibreOffice)  
+- [Euro Office GitHub](https://github.com/eurooffice)  
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-[r-markdown]: https://rmarkdown.rstudio.com/
-
-
--->

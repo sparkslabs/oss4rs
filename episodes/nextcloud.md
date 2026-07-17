@@ -37,11 +37,12 @@ When looking for an alternative to an office suite such as Google or Microsoft O
 
 ## Hosting NextCloud
 NextCloud can be hosted in several ways:
-1. Host it yourself on your home network
-2. Host it yourself with an ISP using either a physical server or with a virtual machine
-3. Organisational hosting
-4. Commercial hosting [Hostinger](https://www.hostinger.com/), [Ionos](https://www.ionos.co.uk/), etc.
-5. National hosting by organisation that have the resources to host for multiple organisations (eg. UKRI)
+
+- Host it yourself on your home network
+- Host it yourself with an ISP using either a physical server or with a virtual machine
+- Organisational hosting
+- Commercial hosting [Hostinger](https://www.hostinger.com/), [Ionos](https://www.ionos.co.uk/), etc.
+- National hosting by organisation that have the resources to host for multiple organisations (eg. UKRI)
 
 ## Requirements for running NextCloud yourself
 1. A 64-bit CPU, OS and PHP
