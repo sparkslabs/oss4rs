@@ -179,7 +179,6 @@ organization? In what scenarios would this integration be critical for your work
 
 ::::::::::::::::::::::::
 
----
 
 ## Choosing the Right Tool for Your Organization  
 
@@ -228,19 +227,3 @@ and **collaboration needs**.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-<!--
-
-::::::::::::::::::::::::::::::::::::: callout
-
-CALL OUT
-<!--
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
--->
-::::::::::::::::::::::::::::::::::::::::::::::::
-
--->
