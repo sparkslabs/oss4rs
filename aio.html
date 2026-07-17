@@ -404,7 +404,7 @@ reinforce the objectives.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Output </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -433,7 +433,7 @@ challenge blocks?</h3>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>You can add a line with at least three colons and a
 <code>solution</code> tag.</p>
@@ -746,6 +746,8 @@ allows IMAP</li>
 <li>a calendar as well as integration, via iCal, with calendars from
 other providers such as MicroSoft and Google</li>
 <li>Tools for collaboration (similar to MS Teams)</li>
+<li>Desktop synchronisation app (similar to OneDrive and DropBox)</li>
+<li>Android apps</li>
 <li>and more</li>
 </ul></section><section><h2 class="section-heading" id="hosting-nextcloud">Hosting NextCloud<a class="anchor" aria-label="anchor" href="#hosting-nextcloud"></a>
 </h2>
@@ -761,7 +763,26 @@ organisation that have the resources to host for multiple organisations
 <hr class="half-width">
 <ol style="list-style-type: decimal">
 <li>A 64-bit CPU, OS and PHP</li>
+<li>512MB of RAM</li>
+<li>Database: MariaDB or MySQL</li>
 </ol>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>The following is currently required if you’re running Nextcloud
+together with a MySQL / MariaDB database:</p>
+<p>InnoDB storage engine (MyISAM is not supported)</p>
+<p>“READ COMMITTED” transaction isolation level (See: Database “READ
+COMMITTED” transaction isolation level)</p>
+<p>Disabled or BINLOG_FORMAT = ROW configured Binary Logging (See: <a href="https://dev.mysql.com/doc/refman/5.7/en/binary-log-formats.html" class="external-link uri">https://dev.mysql.com/doc/refman/5.7/en/binary-log-formats.html</a>)</p>
+</div>
+</div>
+</div>
+<p>For Emoji (UTF8 4-byte) support see Enabling MySQL 4-byte support</p>
 <table class="table docutils align-default">
 <thead><tr class="row-odd">
 <th class="head">
@@ -925,7 +946,22 @@ PHP Runtime
 </td>
 </tr>
 </tbody>
-</table>
+</table></section><section><h2 class="section-heading" id="installing-nextcloud">Installing NextCloud<a class="anchor" aria-label="anchor" href="#installing-nextcloud"></a>
+</h2>
+<hr class="half-width">
+<ol style="list-style-type: decimal">
+<li>Let’s assume we have a computer, a laptop, a desktop or SBC such as
+a Raspberry Pi, with an installed Debian based OS.</li>
+<li>
+</li>
+</ol></section><section><h2 class="section-heading" id="links-to-installation-instructions">Links to installation instructions:<a class="anchor" aria-label="anchor" href="#links-to-installation-instructions"></a>
+</h2>
+<hr class="half-width">
+<ul>
+<li><a href="https://docs.nextcloud.com/server/latest/admin_manual/installation/system_requirements.html" class="external-link">System
+Requirements</a></li>
+<li><a href="https://docs.nextcloud.com/server/latest/admin_manual/installation/index.html" class="external-link">Installation</a></li>
+</ul>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
