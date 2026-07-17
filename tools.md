@@ -45,7 +45,7 @@ is critical for organizational decision-making.
 
 ## Key Concepts  
 
-## 📌 Overview of Open Source Alternatives  
+## Overview of Open Source Alternatives  
 Modern open-source tools now offer robust web-based desktop experiences that rival proprietary solutions like 
 Office 365 and Google Docs. The following four tools are central to this discussion:  
 
@@ -58,7 +58,7 @@ Each has unique strengths and deployment models.
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-### 🤔 **Challenge 2: Tool Evaluation for Collaboration Needs**  
+### **Tool Evaluation for Collaboration Needs**  
 **Question:**  
 *If your team requires real-time collaboration on spreadsheets,  how would you choose which tool fits? Why? How does this align with your organization’s technical 
 capabilities?*  
@@ -69,7 +69,7 @@ capabilities?*
 
 ---
 
-## 📊 Four Deployment Layers: Trade-Offs and Use Cases  
+## Four Deployment Layers: Trade-Offs and Use Cases  
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -91,7 +91,7 @@ of use, but less control. |
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-### 🤔 **Challenge 1: Deployment Layer Trade-Offs**  
+### **Deployment Layer Trade-Offs**  
 **Question:**  
 *In your organization, would you prioritize self-hosting (local/team) for cost savings, or a commercial 
 hosted solution (e.g., NextCloud.com) for scalability? How might these choices affect data control and 
@@ -166,7 +166,7 @@ long-term growth?*
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-### 🤔 **Challenge 4: NextCloud’s Role in Integration**  
+### **NextCloud’s Role in Integration**  
 **Question:**  
 *How does NextCloud’s ability to host Euro Office or Collabora change the value of these tools for your 
 organization? In what scenarios would this integration be critical for your workflows?*  
@@ -195,7 +195,7 @@ organization? In what scenarios would this integration be critical for your work
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-### 🤔 **Challenge 3: Organizational Decision-Making**  
+### **Organizational Decision-Making**  
 **Question:**  
 *Your organization has limited IT resources but needs document collaboration. Would you prioritize a 
 lightweight tool like LibreOffice Online, or invest in a centralized platform like NextCloud with integrated 
@@ -222,12 +222,6 @@ and **collaboration needs**.
 - [Euro Office GitHub](https://github.com/eurooffice)  
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-
-
-
-
 
 <!--
 
