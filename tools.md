@@ -82,11 +82,8 @@ these tools. This helps learners think critically about scalability, security, a
 |----------------------|------------------|----------------|  
 | **1. Local/Team** | Self-hosted by a small team or individual. | Low cost, high maintenance. |  
 | **2. Organization** | Hosted internally by an organization. | Greater control, but requires IT resources. | 
- 
-| **3. Inter-Organization** | Shared between multiple organizations (e.g., via NextCloud). | Collaboration 
-benefits, but security risks. |  
-| **4. Commercial Hosted** | Managed by third-party providers (e.g., NextCloud.com). | Scalability and ease 
-of use, but less control. |  
+| **3. Inter-Organization** | Shared between multiple organizations (e.g., via NextCloud). | Collaboration benefits, but security risks. |  
+| **4. Commercial Hosted** | Managed by third-party providers (e.g., NextCloud.com). | Scalability and ease of use, but less control. |  
 
 
 ::::::::::::::::::::::::::::::::::::: challenge 
