@@ -31,6 +31,8 @@ When looking for an alternative to an office suite such as Google or Microsoft O
 - Contacts
 - a calendar as well as integration, via iCal, with calendars from other providers such as MicroSoft and Google
 - Tools for collaboration (similar to MS Teams)
+- Desktop synchronisation app (similar to OneDrive and DropBox)
+- Android apps
 - and more
 
 ## Hosting NextCloud
@@ -43,6 +45,21 @@ NextCloud can be hosted in several ways:
 
 ## Requirements for running NextCloud yourself
 1. A 64-bit CPU, OS and PHP
+2. 512MB of RAM
+3. Database: MariaDB or MySQL
+
+
+:::callout
+The following is currently required if you’re running Nextcloud together with a MySQL / MariaDB database:
+
+InnoDB storage engine (MyISAM is not supported)
+
+“READ COMMITTED” transaction isolation level (See: Database “READ COMMITTED” transaction isolation level)
+
+Disabled or BINLOG_FORMAT = ROW configured Binary Logging (See: https://dev.mysql.com/doc/refman/5.7/en/binary-log-formats.html)
+:::
+
+For Emoji (UTF8 4-byte) support see Enabling MySQL 4-byte support
 
 <table class="docutils align-default">
 <thead>
@@ -95,6 +112,16 @@ NextCloud can be hosted in several ways:
 </tr>
 </tbody>
 </table>
+
+## Installing NextCloud
+
+1. Let's assume we have a computer, a laptop, a desktop or SBC such as a Raspberry Pi, with an installed Debian based OS.
+2. 
+
+
+## Links to installation instructions:
+- [System Requirements](https://docs.nextcloud.com/server/latest/admin_manual/installation/system_requirements.html)
+- [Installation](https://docs.nextcloud.com/server/latest/admin_manual/installation/index.html)
 
 :::keypoints
 - How to select an open source alternative
