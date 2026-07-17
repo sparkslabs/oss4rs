@@ -71,6 +71,9 @@ using Ollama, using Qwen 3:8b, on laptop. The real content would not be
 generated this way - this is just slightly more realistic Lorem Ipsum
 content.
 
+*As a result*, this document has some known errors, which need correcting
+(and will be corrected!).
+
 ::::::::::::::::::::::::::::
 
 
