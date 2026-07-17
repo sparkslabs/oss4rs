@@ -4,13 +4,11 @@ teaching: 10 # teaching time in minutes
 exercises: 10 # exercise time in minutes
 ---
 
-<!-- Commented out for the moment as cribsheet --> 
-
 :::::::::::::::::::::::::::::::::::::: questions 
 
 - What are the OSS options for web hosted alternatives to Office365, Google Docs etc?
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
@@ -75,7 +73,6 @@ content.
 
 ::::::::::::::::::::::::::::
 
----
 
 ## Four Deployment Layers: Trade-Offs and Use Cases  
 
@@ -104,8 +101,6 @@ long-term growth?*
 **Focus:** Balancing cost, control, and scalability in deployment decisions.  
 
 ::::::::::::::::::::::::
-
----
 
 ##  Detailed Options  
 
@@ -189,6 +184,8 @@ organization? In what scenarios would this integration be critical for your work
 > - **Cost**: Is the tool free, open-source, or requires licensing?  
 > - **Control**: Do you need full control over data and hosting?  
 > - **Scalability**: Will the tool grow with your organization?  
+
+:::::::::::::::
 
 
 **Example Scenarios:**  
