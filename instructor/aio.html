@@ -246,6 +246,30 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="tools.html">2. Web based OSS Desktop Applications</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="nextcloud.html">3. </a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -480,6 +504,484 @@ output</li>
 with your lesson</li>
 <li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
 locally</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-tools"><p>Content from <a href="tools.html">Web based OSS Desktop Applications</a></p>
+<hr>
+<p>Last updated on 2026-07-17 |
+
+        <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/tools.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<!-- - How do you write a lesson using Markdown and `{sandpaper}`? -->
+<ul>
+<li>What are the OSS options for web hosted alternatives to Office365,
+Google Docs etc?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<!--
+- Explain how to use markdown with The Carpentries Workbench
+- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+-->
+<ul>
+<li>Understand that there are alternatives</li>
+<li>Be able to understand which ones may be better for the task in
+hand</li>
+<li>Be able to make a decision around which tool to try for a given
+organisation</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
+<hr class="half-width">
+<!--
+This is a lesson created via The Carpentries Workbench. It is written in
+[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.html) for static files and
+[R Markdown][r-markdown] for dynamic files that can render code into output.
+Please refer to the [Introduction to The Carpentries
+Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+
+What you need to know is that there are three sections required for a valid
+Carpentries lesson:
+
+ 1. `questions` are displayed at the beginning of the episode to prime the
+    learner for the content.
+ 2. `objectives` are the learning objectives for an episode displayed with
+    the questions.
+ 3. `keypoints` are displayed at the end of the episode to reinforce the
+    objectives.
+--><div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div class="accordion-body">
+<!--
+Inline instructor notes can help inform instructors of timing challenges
+associated with the lessons. They appear in the "Instructor View"
+-->
+</div>
+</div>
+</div>
+</div>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<!--
+## Challenge 1: Can you do it?
+
+What is the output of this command?
+
+```r
+paste("This", "new", "lesson", "looks", "good")
+```
+-->
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<!--
+## Output
+
+```output
+[1] "This new lesson looks good"
+```
+-->
+</div>
+</div>
+</div>
+</div>
+<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
+<h3 class="callout-title">Challenge 2: how do you nest solutions within
+challenge blocks?</h3>
+<div class="callout-content">
+<!--
+-->
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<!--
+
+You can add a line with at least three colons and a `solution` tag.
+-->
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="figures">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
+</h2>
+<hr class="half-width">
+<!--
+You can use standard markdown for static figures with the following syntax:
+
+`![optional caption that appears below the figure](figure url){alt='alt text for
+accessibility purposes'}`
+
+![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
+--><div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>CALL OUT <!--
+Callout sections can highlight information.
+
+They are sometimes used to emphasise particularly important points
+but are also used in some lessons to present "asides":
+content that is not central to the narrative of the lesson,
+e.g. by providing the answer to a commonly-asked question.
+--></p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="math">Math<a class="anchor" aria-label="anchor" href="#math"></a>
+</h2>
+<hr class="half-width">
+<!--
+One of our episodes contains $\LaTeX$ equations when describing how to create
+dynamic reports with {knitr}, so we now use mathjax to describe this:
+
+`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
+
+Cool, right?
+--><div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<!--
+
+- Use `.md` files for episodes when you want static content
+- Use `.Rmd` files for episodes when you need to generate output
+- Run `sandpaper::check_lesson()` to identify any issues with your lesson
+- Run `sandpaper::build_lesson()` to preview your lesson locally
+
+-->
+</div>
+</div>
+</div>
+<p>–&gt;</p>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-nextcloud"><p>Content from <a href="nextcloud.html"></a></p>
+<hr>
+<p>Last updated on 2026-07-17 |
+
+        <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/nextcloud.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Using Nextcloud as an example of an open-source alternative, how
+would you go about installing it?</li>
+<li>What are the different options for running instances of open source
+software?</li>
+<li>What alternatives are there to Nexcloud?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Explain how you would go about deciding on a solution</li>
+<li>List the requirements of the different solutions to running an
+instance of Nextcloud</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div class="accordion-body">
+<p>Instructor note</p>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="why-did-we-select-nextcloud">Why did we select NextCloud?<a class="anchor" aria-label="anchor" href="#why-did-we-select-nextcloud"></a>
+</h2>
+<hr class="half-width">
+<p>When looking for an alternative to an office suite such as Google or
+Microsoft Office we would probably want to know which features are
+supported. NextCloud can give us the following:</p>
+<ul>
+<li>Using LibreOffice and Collabora, Nextcloud provide a full office
+suite which includes
+<ul>
+<li>a Wordprocessor,</li>
+<li>Spreadsheet,</li>
+<li>Presentation Software,</li>
+<li>Plain text and Markdown files</li>
+</ul>
+</li>
+<li>Using IMAP NextCloud offers integration with any email provider that
+allows IMAP</li>
+<li>Contacts</li>
+<li>a calendar as well as integration, via iCal, with calendars from
+other providers such as MicroSoft and Google</li>
+<li>Tools for collaboration (similar to MS Teams)</li>
+<li>and more</li>
+</ul></section><section><h2 class="section-heading" id="hosting-nextcloud">Hosting NextCloud<a class="anchor" aria-label="anchor" href="#hosting-nextcloud"></a>
+</h2>
+<hr class="half-width">
+<p>NextCloud can be hosted in several ways: 1. Host it yourself on your
+home network 2. Host it yourself with an ISP using either a physical
+server or with a virtual machine 3. Organisational hosting 4. Commercial
+hosting <a href="https://www.hostinger.com/" class="external-link">Hostinger</a>, <a href="https://www.ionos.co.uk/" class="external-link">Ionos</a>, etc. 5. National hosting by
+organisation that have the resources to host for multiple organisations
+(eg. UKRI)</p>
+</section><section><h2 class="section-heading" id="requirements-for-running-nextcloud-yourself">Requirements for running NextCloud yourself<a class="anchor" aria-label="anchor" href="#requirements-for-running-nextcloud-yourself"></a>
+</h2>
+<hr class="half-width">
+<ol style="list-style-type: decimal">
+<li>A 64-bit CPU, OS and PHP</li>
+</ol>
+<table class="table docutils align-default">
+<thead><tr class="row-odd">
+<th class="head">
+<p>
+Platform
+</p>
+</th>
+<th class="head">
+<p>
+Options
+</p>
+</th>
+</tr></thead>
+<tbody>
+<tr class="row-even">
+<td>
+<p>
+Operating System (64-bit)
+</p>
+</td>
+<td>
+<ul class="simple">
+<li>
+<p>
+<strong>Ubuntu 26.04 LTS</strong> (recommended)
+</p>
+</li>
+<li>
+<p>
+Ubuntu 24.04 LTS
+</p>
+</li>
+<li>
+<p>
+<strong>Red Hat Enterprise Linux 10</strong> (recommended)
+</p>
+</li>
+<li>
+<p>
+Red Hat Enterprise Linux 9
+</p>
+</li>
+<li>
+<p>
+Debian 13 (Trixie)
+</p>
+</li>
+<li>
+<p>
+SUSE Linux Enterprise Server 16
+</p>
+</li>
+<li>
+<p>
+SUSE Linux Enterprise Server 15 SP7 (or later)
+</p>
+</li>
+<li>
+<p>
+openSUSE Leap 16
+</p>
+</li>
+<li>
+<p>
+CentOS Stream
+</p>
+</li>
+<li>
+<p>
+Alpine Linux
+</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd">
+<td>
+<p>
+Database
+</p>
+</td>
+<td>
+<ul class="simple">
+<li>
+<p>
+MySQL 8.4 / 9.7
+</p>
+</li>
+<li>
+<p>
+MariaDB 10.11 / 11.4 / <strong>11.8</strong> / 12.3 (recommended)
+</p>
+</li>
+<li>
+<p>
+Oracle Database 19c, 21c, 23ai (<em>only as part of an enterprise
+subscription</em>)
+</p>
+</li>
+<li>
+<p>
+PostgreSQL 14 / 15 / 16 / 17 / <strong>18</strong> (recommended)
+</p>
+</li>
+<li>
+<p>
+SQLite 3.24+ (<em>only recommended for testing and
+minimal-instances</em>)
+</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even">
+<td>
+<p>
+Webserver
+</p>
+</td>
+<td>
+<ul class="simple">
+<li>
+<p>
+<strong>Apache 2.4 with</strong>
+<code class="docutils literal notranslate"><span class="pre">mod_php</span></code> <strong>or</strong>
+<code class="docutils literal notranslate"><span class="pre">php-fpm</span></code> (recommended)
+</p>
+</li>
+<li>
+<p>
+nginx with <code class="docutils literal notranslate"><span class="pre">php-fpm</span></code>
+</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd">
+<td>
+<p>
+PHP Runtime
+</p>
+</td>
+<td>
+<ul class="simple">
+<li>
+<p>
+8.3
+</p>
+</li>
+<li>
+<p>
+8.4
+</p>
+</li>
+<li>
+<p>
+<strong>8.5</strong> (<em>recommended</em>)
+</p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>How to select an open source alternative</li>
+<li>Different ways of hosting open source software</li>
+<li>Example of installing software on a server</li>
 </ul>
 </div>
 </div>

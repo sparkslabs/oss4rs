@@ -58,10 +58,16 @@
     <loc>https://carpentries.github.io/workbench-template-md/instructor/key-points.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/nextcloud.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/tools.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor-notes.html</loc>
@@ -73,9 +79,15 @@
     <loc>https://carpentries.github.io/workbench-template-md/key-points.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/nextcloud.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/tools.html</loc>
   </url>
 </urlset>
