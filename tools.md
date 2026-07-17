@@ -4,13 +4,11 @@ teaching: 10 # teaching time in minutes
 exercises: 10 # exercise time in minutes
 ---
 
-<!-- Commented out for the moment as cribsheet --> 
-
 :::::::::::::::::::::::::::::::::::::: questions 
 
 - What are the OSS options for web hosted alternatives to Office365, Google Docs etc?
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
@@ -24,7 +22,7 @@ cost, and feature sets.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-# Open Source Web-Based Desktop Applications: Lorum Ipsum version
+# Open Source Web-Based Desktop Applications: Lorem Ipsum version
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -66,8 +64,15 @@ capabilities?*
 
 ::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::: callout
 
----
+Please note that this is Lorem Ipsum version of this page. It was generated
+using Ollama, using Qwen 3:8b, on laptop. The real content would not be
+generated this way - this is just slightly more realistic Lorem Ipsum
+content.
+
+::::::::::::::::::::::::::::
+
 
 ## Four Deployment Layers: Trade-Offs and Use Cases  
 
@@ -96,8 +101,6 @@ long-term growth?*
 **Focus:** Balancing cost, control, and scalability in deployment decisions.  
 
 ::::::::::::::::::::::::
-
----
 
 ##  Detailed Options  
 
@@ -171,7 +174,6 @@ organization? In what scenarios would this integration be critical for your work
 
 ::::::::::::::::::::::::
 
----
 
 ## Choosing the Right Tool for Your Organization  
 
@@ -182,6 +184,8 @@ organization? In what scenarios would this integration be critical for your work
 > - **Cost**: Is the tool free, open-source, or requires licensing?  
 > - **Control**: Do you need full control over data and hosting?  
 > - **Scalability**: Will the tool grow with your organization?  
+
+:::::::::::::::
 
 
 **Example Scenarios:**  
@@ -220,19 +224,3 @@ and **collaboration needs**.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-<!--
-
-::::::::::::::::::::::::::::::::::::: callout
-
-CALL OUT
-<!--
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
--->
-::::::::::::::::::::::::::::::::::::::::::::::::
-
--->
